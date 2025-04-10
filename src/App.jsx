@@ -41,6 +41,7 @@ function App() {
 
   return (
     <div className="app">
+        <div className="title">Play Mimi Tic Tac Toe HEHEHE</div>
         <div className="gameboard">
             {cells.map((cell, index) =>
                 <Cell

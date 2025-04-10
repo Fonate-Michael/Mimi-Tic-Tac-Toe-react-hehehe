@@ -92,7 +92,30 @@ body{
     opacity: 1;
   }
 }
+.title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #ff4081;
+  text-shadow: 2px 2px 0 #00000033;
+  margin-bottom: 20px;
+  font-family: 'Comic Sans MS', 'Poppins', sans-serif;
+  animation: popIn 0.8s ease-out;
+  background: linear-gradient(90deg, #ff4081, #ff80ab);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
 
+@keyframes popIn {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
 .message {
   color: white;
   background: #16a116;
